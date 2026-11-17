@@ -1,0 +1,28 @@
+# Secrets — JAMAIS committés
+*.key
+*.pem
+*.crt
+*.p12
+.env
+secrets/
+*.secret
+
+# Données sensibles / sauvegardes
+backups/
+*.tar.gz
+*.sql
+*.dump
+
+# Logs
+*.log
+logs/
+
+# OS / éditeurs
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Configs locales avec IPs réelles
+*.local
