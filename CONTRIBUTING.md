@@ -25,3 +25,17 @@ Exemples :
 ## Règle d'or
 Chaque coéquipier doit avoir des commits sur tous les piliers
 dans l'historique (les rôles sont des spécialisations, pas des silos).
+
+## Répartition officielle du binôme
+
+### Admin Réseau & Identité — [Ton Prénom Nom]
+Périmètre : IP, nftables, DNS/DHCP, OpenLDAP, PAM/SSSD, Samba, CUPS
+Branches typiques : feat/nftables-*, feat/bind-*, feat/ldap-*, feat/samba-*
+
+### Ingénieur DevSecOps & Cloud — [Prénom Nom binôme]
+Périmètre : Docker Compose, Nginx TLS, Bash, sauvegardes, Prometheus/Grafana
+Branches typiques : feat/docker-*, feat/nginx-*, feat/backup-*, feat/monitoring-*
+
+## Règle des PR croisées
+Chaque PR doit être relue et approuvée par l'autre coéquipier avant merge.
+Objectif : maintenir une traçabilité équilibrée sur l'ensemble des piliers.
