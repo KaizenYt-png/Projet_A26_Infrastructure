@@ -28,11 +28,11 @@ dans l'historique (les rôles sont des spécialisations, pas des silos).
 
 ## Répartition officielle du binôme
 
-### Admin Réseau & Identité — [Ton Prénom Nom]
+### Admin Réseau & Identité — Malick
 Périmètre : IP, nftables, DNS/DHCP, OpenLDAP, PAM/SSSD, Samba, CUPS
 Branches typiques : feat/nftables-*, feat/bind-*, feat/ldap-*, feat/samba-*
 
-### Ingénieur DevSecOps & Cloud — [Prénom Nom binôme]
+### Ingénieur DevSecOps & Cloud — Scott
 Périmètre : Docker Compose, Nginx TLS, Bash, sauvegardes, Prometheus/Grafana
 Branches typiques : feat/docker-*, feat/nginx-*, feat/backup-*, feat/monitoring-*
 
